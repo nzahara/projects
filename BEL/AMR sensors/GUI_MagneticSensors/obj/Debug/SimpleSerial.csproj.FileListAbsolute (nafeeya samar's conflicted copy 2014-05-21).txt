@@ -1,0 +1,46 @@
+C:\Users\Nandakumar\Desktop\SimpleSerial\obj\Debug\SimpleSerial.exe
+C:\Users\Nandakumar\Desktop\SimpleSerial\obj\Debug\SimpleSerial.pdb
+C:\Users\Nandakumar\Desktop\SimpleSerial\bin\Debug\SimpleSerial.exe
+C:\Users\Nandakumar\Desktop\SimpleSerial\bin\Debug\SimpleSerial.pdb
+C:\Users\Nandakumar\Desktop\SimpleSerial\obj\Debug\SimpleSerial.csprojResolveAssemblyReference.cache
+C:\Users\Nandakumar\Desktop\SimpleSerial\obj\Debug\SimpleSerial.Form1.resources
+C:\Users\Nandakumar\Desktop\SimpleSerial\obj\Debug\SimpleSerial.Properties.Resources.resources
+C:\Users\Nandakumar\Desktop\SimpleSerial\obj\Debug\SimpleSerial.csproj.GenerateResource.Cache
+C:\Users\Nandakumar\Desktop\Pradeep\SimpleSerial\obj\Debug\SimpleSerial.exe
+C:\Users\Nandakumar\Desktop\Pradeep\SimpleSerial\obj\Debug\SimpleSerial.pdb
+C:\Users\Nandakumar\Desktop\Pradeep\SimpleSerial\bin\Debug\SimpleSerial.exe
+C:\Users\Nandakumar\Desktop\Pradeep\SimpleSerial\bin\Debug\SimpleSerial.pdb
+C:\Users\Nandakumar\Desktop\Pradeep\SimpleSerial\obj\Debug\SimpleSerial.csprojResolveAssemblyReference.cache
+C:\Users\Nandakumar\Desktop\Pradeep\SimpleSerial\obj\Debug\SimpleSerial.Form1.resources
+C:\Users\Nandakumar\Desktop\Pradeep\SimpleSerial\obj\Debug\SimpleSerial.Properties.Resources.resources
+C:\Users\Nandakumar\Desktop\Pradeep\SimpleSerial\obj\Debug\SimpleSerial.csproj.GenerateResource.Cache
+E:\Serial\obj\Debug\SimpleSerial.exe
+E:\Serial\obj\Debug\SimpleSerial.pdb
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\Serial\obj\Debug\SimpleSerial.exe
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\Serial\obj\Debug\SimpleSerial.pdb
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\Serial\bin\Debug\SimpleSerial.exe
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\Serial\bin\Debug\SimpleSerial.pdb
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\Serial\obj\Debug\SimpleSerial.csprojResolveAssemblyReference.cache
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\Serial\obj\Debug\SimpleSerial.Form1.resources
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\Serial\obj\Debug\SimpleSerial.Properties.Resources.resources
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\Serial\obj\Debug\SimpleSerial.csproj.GenerateResource.Cache
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\MagneticSensor\obj\Debug\SimpleSerial.exe
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\MagneticSensor\obj\Debug\SimpleSerial.pdb
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\MagneticSensor\bin\Debug\SimpleSerial.exe
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\MagneticSensor\bin\Debug\SimpleSerial.pdb
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\MagneticSensor\obj\Debug\SimpleSerial.csprojResolveAssemblyReference.cache
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\MagneticSensor\obj\Debug\SimpleSerial.Form1.resources
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\MagneticSensor\obj\Debug\SimpleSerial.Properties.Resources.resources
+C:\Users\Nikunj\Documents\Visual Studio 2013\Projects\MagneticSensor\obj\Debug\SimpleSerial.csproj.GenerateResource.Cache
+C:\Users\Nandakumar\Dropbox\Pradeep\BEL\AMR sensors\GUI_MagneticSensors\obj\Debug\SimpleSerial.exe
+C:\Users\Nandakumar\Dropbox\Pradeep\BEL\AMR sensors\GUI_MagneticSensors\obj\Debug\SimpleSerial.pdb
+C:\Users\Nandakumar\Desktop\Pradeep\GUI_MagneticSensors\obj\Debug\SimpleSerial.exe
+C:\Users\Nandakumar\Desktop\Pradeep\GUI_MagneticSensors\obj\Debug\SimpleSerial.pdb
+C:\Users\Nandakumar\Desktop\Pradeep\GUI_MagneticSensors\bin\Debug\SimpleSerial.exe
+C:\Users\Nandakumar\Desktop\Pradeep\GUI_MagneticSensors\bin\Debug\SimpleSerial.pdb
+C:\Users\Nandakumar\Desktop\Pradeep\GUI_MagneticSensors\obj\Debug\SimpleSerial.csprojResolveAssemblyReference.cache
+C:\Users\Nandakumar\Desktop\Pradeep\GUI_MagneticSensors\obj\Debug\SimpleSerial.Form1.resources
+C:\Users\Nandakumar\Desktop\Pradeep\GUI_MagneticSensors\obj\Debug\SimpleSerial.Properties.Resources.resources
+C:\Users\Nandakumar\Desktop\Pradeep\GUI_MagneticSensors\obj\Debug\SimpleSerial.csproj.GenerateResource.Cache
+C:\Users\Nafeeya\Dropbox\BEL\AMR sensors\GUI_MagneticSensors\obj\Debug\SimpleSerial.exe
+C:\Users\Nafeeya\Dropbox\BEL\AMR sensors\GUI_MagneticSensors\obj\Debug\SimpleSerial.pdb

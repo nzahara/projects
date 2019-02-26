@@ -1,0 +1,22 @@
+bin/JN5148/iSenseDemoApp.o: src/iSenseDemoApp.cpp \
+  ../../iSense/src/isense/application.h ../../iSense/src/isense/config.h \
+  ../../iSense/src/isense/isense_object.h ../../iSense/src/isense/types.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_types.h \
+  ../../iSense/src/isense/os.h ../../iSense/src/isense/timeout_handler.h \
+  ../../iSense/src/isense/sleep_handler.h ../../iSense/src/isense/time.h \
+  ../../iSense/src/isense/radio.h \
+  ../../iSense/src/isense/link_layer_interface.h \
+  ../../iSense/src/isense/simple_memory.h \
+  ../../iSense/src/isense/util/pseudo_random_number_generator.h \
+  ../../iSense/src/isense/dispatcher.h ../../iSense/src/isense/task.h \
+  ../../iSense/src/isense/util/queue.h \
+  ../../iSense/src/isense/util/string/memmove.h \
+  ../../iSense/src/isense/isense_memory.h \
+  ../../iSense/src/isense/isense.h ../../iSense/src/isense/uart.h \
+  ../../iSense/src/isense/power_management.h \
+  ../../iSense/src/isense/data_handlers.h \
+  ../../iSense/src/isense/util/util.h \
+  ../../iSense/src/isense/button_handler.h \
+  ../../iSense/src/isense/modules/pacemate_module/pacemate_module.h \
+  ../../iSense/src/isense/modules/core_module/core_module.h \
+  ../../iSense/src/isense/gpio.h

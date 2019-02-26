@@ -1,0 +1,70 @@
+bin/JN5148/AmrModuleDemoApplication.o: src/AmrModuleDemoApplication.cpp \
+  ../../iSense/src/isense/config.h ../../iSense/src/isense/os.h \
+  ../../iSense/src/isense/isense_object.h ../../iSense/src/isense/types.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_types.h \
+  ../../iSense/src/isense/timeout_handler.h \
+  ../../iSense/src/isense/sleep_handler.h ../../iSense/src/isense/time.h \
+  ../../iSense/src/isense/radio.h \
+  ../../iSense/src/isense/link_layer_interface.h \
+  ../../iSense/src/isense/simple_memory.h \
+  ../../iSense/src/isense/util/pseudo_random_number_generator.h \
+  ../../iSense/src/isense/application.h ../../iSense/src/isense/task.h \
+  ../../iSense/src/isense/uart.h \
+  ../../iSense/src/isense/power_management.h \
+  ../../iSense/src/isense/data_handlers.h \
+  ../../iSense/src/isense/util/util.h \
+  ../../iSense/src/isense/modules/amr_module/amr_module.h \
+  ../../iSense/src/isense/modules/gateway_module/gateway_module.h \
+  ../../iSense/src/isense/gpio.h ../../iSense/src/isense/button_handler.h \
+  ../../iSense/src/isense/i2c.h \
+  ../../iSense/src/isense/util/ishell_interpreter.h \
+  ../../iSense/src/isense/protocols/routing/tree_routing.h \
+  ../../iSense/src/isense/protocols/routing/neighborhood_monitor.h \
+  ../../iSense/src/isense/dispatcher.h \
+  ../../iSense/src/isense/util/queue.h \
+  ../../iSense/src/isense/util/string/memmove.h \
+  ../../iSense/src/isense/isense_memory.h \
+  ../../iSense/src/isense/protocols/routing/history.h \
+  ../../iSense/src/isense/singleton_object.h \
+  ../../iSense/src/isense/protocols/routing/hop_based_flooding.h \
+  ../../iSense/src/isense/util/spyglass/spyglass_packet.h \
+  ../../iSense/src/isense/aes.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_os.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_power_management.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_gpio.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_uart.h \
+  ../../iSense/src/isense/util/ring_queue.h \
+  ../../iSense/src/isense/util/stl/list.h \
+  ../../iSense/src/isense/util/stl/algorithms.h \
+  ../../iSense/src/isense/util/stl/iterator_traits.h \
+  ../../iSense/src/isense/util/stl/iterator.h \
+  ../../iSense/src/isense/util/stl/memory.h \
+  ../../iSense/lib/jennic/5148_1v2/Components/HardwareApi/Include/AppHardwareApi.h \
+  ../../iSense/lib/jennic/5148_1v2/Components/Common/Include/jendefs.h \
+  ../../iSense/lib/jennic/5148_1v2/Components/HardwareApi/Include/AppHardwareApi_JN514x.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_timer.h \
+  ../../iSense/src/isense/timer.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_tick_timer.h \
+  ../../iSense/src/isense/tick_timer.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_analogue.h \
+  ../../iSense/src/isense/analogue.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_flash.h \
+  ../../iSense/src/isense/flash.h \
+  ../../iSense/src/isense/tdma_wave_radio.h \
+  ../../iSense/src/isense/hardware_radio.h \
+  ../../iSense/src/isense/modules/core_module/core_module.h \
+  ../../iSense/src/isense/tdma_radio.h \
+  ../../iSense/src/isense/csma_radio.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_radio.h \
+  ../../iSense/lib/jennic/5148_1v2/Components/MAC/Include/mac_sap.h \
+  ../../iSense/lib/jennic/5148_1v2/Components/MAC/Include/mac_pib.h \
+  ../../iSense/lib/jennic/5148_1v2/Components/MAC/Include/mac_sap.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_sw_clock.h \
+  ../../iSense/src/isense/clock.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_spi.h \
+  ../../iSense/src/isense/spi.h \
+  ../../iSense/src/isense/platforms/jennic/jennic_i2c.h \
+  ../../iSense/src/isense/modules/core_module/core_module_clock.h \
+  ../../iSense/src/isense/otap.h \
+  ../../iSense/src/isense/util/seraerial_filter.h \
+  ../../iSense/src/isense/platforms/shawn/shawn_os.h

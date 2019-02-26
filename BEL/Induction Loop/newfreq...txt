@@ -1,0 +1,60 @@
+// Frequency Counter Lib example
+
+/*
+  Martin Nawrath KHM LAB3
+  Kunsthochschule f¸r Medien Kˆln
+  Academy of Media Arts
+  http://www.khm.de
+  http://interface.khm.de/index.php/labor/experimente/	
+ */
+#include <FreqCounter.h>
+
+
+unsigned long frq;
+int cnt = 0;
+long int a = 0, tmp0, tmp1;
+boolean tmp_flag = false; 
+int pinLed=13;
+
+void setup() {
+  pinMode(pinLed, OUTPUT);
+  //tone(7, 50000);
+  Serial.begin(115200);        // connect to the serial port
+
+  Serial.println("Vehicle detector");
+
+}
+
+
+
+void loop() {
+
+  // wait if any serial is going on
+  FreqCounter::f_comp=10;   // Cal Value / Calibrate with professional Freq Counter
+  FreqCounter::start(2000);  // 1000 ms Gate Time
+
+  while (FreqCounter::f_ready == 0) 
+
+  frq=FreqCounter::f_freq;
+
+if ((frq >= a+300) && frq!=0)
+  {
+    if (!tmp_flag)
+    tmp0 = frq - q;
+    
+//    Serial.print(cnt++);
+//    Serial.print("  Freq: ");
+//    Serial.println(frq);
+  //Serial.print("  Freq: ");
+    //Serial.println(frq);
+    
+      cnt++;
+      Serial.print(cnt-1);
+      Serial.println(" Vehicles detected");
+//      Serial.print("Count : ");
+//      Serial.println(cnt);
+//    delay(20);  
+//    digitalWrite(pinLed,!digitalRead(pinLed));  // blink Led
+  }
+  a = frq;
+}  
