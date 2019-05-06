@@ -1,32 +1,12 @@
-<!-- <mat-toolbar color="primary">
-   <h4 style="text-align:center;">LOGIN</h4>
-</mat-toolbar> -->
-<div flex-xs="" layout="row">
-   <mat-card class="page-card">
-     <div fxLayout flex-gt-xs="100" layout="row" style= "margin-left:30%">
-        <div class="card-form-input" fxflex>
-           <!-- <mat-form-field>  -->
-             <input matInput placeholder="student id" type="text"
-             style="text-align:center;font-size:12px;margin-top:5%" [(ngModel)] = "username">
-            <!-- </mat-form-field> -->
-         </div>
+<form>
+  <div class="container">
+    <div>
+      <input type="text" placeholder="Enter Student Id" name="uname" required [(ngModel)]="username">
     </div>
-    <div fxLayout flex-gt-xs="100" layout="row" style = "margin-left:4%">
-           <div class="card-form-input" fxflex>
-             <!-- <mat-form-field>  -->
-               <input matInput placeholder="Password" type="password" [(ngModel)] = "password" style="text-align:center;font-size:12px;margin-top:5%;">
-             <!-- </mat-form-field> -->
-           </div>
+    <input type="password" placeholder="Enter Password" name="psw" required [(ngModel)]="password">
+    <div>
+      <button type="submit" (click)=signIn()>Login</button>
     </div>
-    <div fxLayout="row" fxLayout.xs="row" fxLayout.sm="row" fxFlex="20">
-        <!-- <p flex> -->
-          <button mat-raised-button color="primary" style="text-align:center;font-size:12px;margin-left:8%;background-color:#3BB2A9;color:white;" (click) = signIn()>SignIn</button>
-          <button mat-raised-button color="primary" style="text-align:center;font-size:12px;margin-left:8%;background-color:#3BB2A9;color:white;" (click) = openRegisterPage()>Register</button>
-
-          <!-- </p> -->
-        <!-- <p flex>
-          <button mat-raised-button color="primary">jdhhd</button>
-        </p> -->
-    </div>
-  </mat-card>
- </div>
+    <button type="submit" (click)=openRegisterPage()>Register</button>
+  </div>
+</form>

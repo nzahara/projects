@@ -1,14 +1,88 @@
-<mat-toolbar color="primary" style = "margin-left:40%">
-  <h4 class="page-card-flexible-title">Register to UNCC Connect</h4>
+<mat-toolbar color="primary" style="margin-left:38%">
+  <h3 class="page-card-flexible-title" style ="color:white">Register to UNCC Connect</h3>
   <ol class="breadcrumbs">
   </ol>
 </mat-toolbar>
 
+
+
 <mat-card class="page-card">
-  <table class="table table-striped table-borderless table-hover table-card" style="table-layout: fixed">
-    <tr style="text-align: center; word-wrap:break-word;margin-left:20%">
-            <td style = "margin-left:10%"><label> Name : </label>
-            <input type="text" name="" value=""></td>
+  <section class="bs" style="max-width: 100%">
+    <table align="center" cellpadding="10">
+      <tr>
+        <td>STUDENT ID</td>
+        <td><input type="text" name="student_id" [(ngModel)]="registerDetails.student_id" />
+        </td>
       </tr>
-  </table>
+      <tr>
+        <td>FIRST NAME</td>
+        <td><input type="text" name="First_Name" [(ngModel)]="registerDetails.first_name" />
+        </td>
+      </tr>
+      <tr>
+        <td>MIDDLE NAME</td>
+        <td><input type="text" name="Last_Name" [(ngModel)]="registerDetails.middle_name" />
+        </td>
+      </tr>
+      <tr>
+        <td>LAST NAME</td>
+        <td><input type="text" name="Last_Name" [(ngModel)]="registerDetails.last_name" />
+        </td>
+      </tr>
+      <tr>
+        <td>PERSONAL EMAIL ID</td>
+        <td><input type="text" name="Email_Id" [(ngModel)]="registerDetails.personal_email_id" /></td>
+      </tr>
+      <tr>
+        <td>MOBILE NUMBER</td>
+        <td>
+          <input type="text" name="Mobile_Number" [(ngModel)]="registerDetails.contact_number" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>PASSWORD</td>
+        <td><input type="password" name="password" [(ngModel)]="registerDetails.password" /></td>
+      </tr>
+      <tr>
+        <td>LINKED IN ID</td>
+        <td><input type="text" name="Linked_in_id" [(ngModel)]="registerDetails.linked_in_id" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>GRADUATION YEAR</td>
+        <td><input type="text" name="grad_yr" [(ngModel)]="registerDetails.graduation_year" />
+        </td>
+      </tr>
+      <tr>
+        <td>MAJOR</td>
+        <td><input type="text" name="major" [(ngModel)]="registerDetails.major" />
+        </td>
+      </tr>
+      <tr>
+        <td>STUDENT TYPE</td>
+        <td>
+          <select [(ngModel)]="registerDetails.student_type">
+            <option value="Student">Student</option>
+            <option value="Alumni">Alumni</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>PROFILE PIC</td>
+        <td>
+          <form action="/" method="post" enctype="multipart/form-data">
+            <input #fileUpload type="file" placeholder="upload the file" (click)="fileUpload.value = null" name="file_name" (change)="importFile($event)" />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit" (click)=registerStudent()>
+        </td>
+      </tr>
+    </table>
+  </section>
 </mat-card>
