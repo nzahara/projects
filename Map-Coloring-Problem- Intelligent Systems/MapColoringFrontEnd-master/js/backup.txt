@@ -1,0 +1,23 @@
+def get_csv(color_file):
+    color_file = open('output.csv', 'r')
+    state_file = open('states.csv')
+    file_writer = open('finaColor_new.txt', 'w')
+
+    # color_dict = {'Red': '1', 'Blue': '2', 'Green': '3', 'Yellow': '4', 'White': '0'}
+
+    state_dict = dict()
+
+    for j in state_file:
+        temp = j.split(",")
+        temp[0], temp[1] = temp[0].strip().strip('"'), temp[1].strip().strip('"')
+        state_dict[temp[1]] = temp[0]
+
+    print(state_dict)
+
+    for i in color_file:
+        temp = i.split(' - ')
+        file_writer.write(temp[0].lower())
+        file_writer.write(',')
+        temp[1] = temp[1].strip()
+        file_writer.write(temp[1])
+        file_writer.write('\n')

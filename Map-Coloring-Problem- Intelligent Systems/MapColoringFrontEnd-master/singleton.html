@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+    <title>Map Coloring - Backtracking</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+	<!-- CSS Bootstrap CDN -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- JVQMap Imports -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/jqvmap/1.5.1/jqvmap.min.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqvmap/1.5.1/jquery.vmap.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqvmap/1.5.1/maps/jquery.vmap.usa.js"></script>
+	<script type="text/javascript" src="js/aus/aus.js"></script>
+
+	<link href="css/cover.css" rel="stylesheet">
+
+	<!-- Custom CSS to get the Colors on the map -->
+	<script type="text/javascript" src="js/Jvqout-singleton.js"></script>
+	<script type="text/javascript" src="js/aus/Jvqout-singleton.js"></script>
+</head>
+	<body>
+		<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+			<h5 class="my-0 mr-md-auto font-weight-normal">Map Coloring</h5>
+			<nav class="my-2 my-md-0 mr-md-3">
+			<a class="p-2 text-dark" href="index.html">Home</a>
+			<a class="p-2 text-dark" href="backtracking.html">Backtracking</a>
+			<a class="p-2 text-dark" href="forwardcheck.html">Forward Checking</a>
+			<a class="p-2 text-dark" href="singleton.html">Singleton</a>
+			<a class="p-2 text-dark" href="mrv.html">MRV</a>
+      <a class="p-2 text-dark" href="lcv.html">LCV</a>
+		  </nav>
+		</div>
+		<div class="container">
+			<div class="col-md-12">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="us-tab" data-toggle="tab" href="#us" role="tab" aria-controls="us" aria-selected="true">US Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="aus-tab" data-toggle="tab" href="#aus" role="tab" aria-controls="aus" aria-selected="false">AUS Map</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="us" role="tabpanel" aria-labelledby="us-tab">
+				<div class="row">
+					<div class="col-md-6"  style="text-align: center;">
+						<strong>Singleton</strong>
+						<div id="vmap_si" class="col-md-6"  style="min-width:450px; min-height:350px"></div>
+						<strong>Enter the Coloring Speed:</strong>
+						<input type="number" class="form-control" value="300" id="inTimeInterval" style="margin-bottom: 2px; margin-top: 2px;">
+						<button id="bckBtn" class="btn btn-primary" onClick="Singleton()"> Start </button>
+						<button id="bckBtnReset" class="btn btn-primary" onClick="SingletonReset()"> Reset </button>
+					</div>
+					<div class="col-md-6">
+						<strong>Checking output Steps</strong><br />
+						<div id="show_object_si" class="alert alert-success" style="max-height: 450px; min-height: 450px; overflow-x: hidden; overflow-y: scroll;"></div>
+					</div>
+				</div>
+			<br /><br />
+			<div class="col-md-12">
+				<strong> Information about the Rutime </strong>
+				<div class="alert alert-primary" id="runtime-info-si">
+				</div>
+			</div>
+    </div>
+      <div class="tab-pane" id="aus" role="tabpanel" aria-labelledby="aus-tab" onload="getStatic()">
+        <div class="row">
+          <div class="col-md-6"  style="text-align: center;">
+          <strong>Singleton - Australia</strong><br />
+          <div id="vmap_si_aus" class="col-md-6"  style="min-width:450px; min-height:350px"></div>
+            <strong>Enter the Coloring Speed:</strong>
+            <input type="number" class="form-control" value="300" id="inTimeInterval_aus" style="margin-bottom: 2px; margin-top: 2px;">
+            <button id="fwdBtn" class="btn btn-primary" onClick="Singleton_aus()">Start </button>
+            <button id="fwdBtnReset" class="btn btn-primary" onClick="SingletonReset_aus()"> Reset </button>
+          </div>
+          <div class="col-md-6">
+            <strong>Checking output Steps</strong><br />
+            <div id="show_object_si_aus" class="alert alert-success" style="max-height: 450px; min-height: 450px; overflow-x: hidden; overflow-y: scroll;"></div>
+          </div>
+        </div>
+        <br /><br />
+        <div class="col-md-12">
+          <strong> Information about the Rutime </strong>
+          <div class="alert alert-primary" id="runtime-info-si-aus">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+			<footer class="pt-4 my-md-5 pt-md-5 border-top">
+				<div class="col-12 col-md" style="text-align: center;">
+					<strong style="font-size: 12px"> Powered By Bootstrap | Developed By : <a href="https://www.linkedin.com/in/sameershanbhag/"> Sameer</a>, <a href="#">Sowmya </a>, <a href="#">Noor</a></strong>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
