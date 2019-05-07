@@ -1,0 +1,52 @@
+#search {
+  margin-top: 7%;
+  width: 100%;
+  /* margin-left: 3%; */
+  /* padding: 0px 0px 30px 0px ; */
+}
+
+#btn {
+  margin-left: 15px;
+  height: 40px;
+}
+
+/* #root>div {
+  width: 100%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+} */
+#test {
+  width: 150%;
+  margin-left: -10%;
+  padding: 0px 0px 30px 0px;
+}
+
+#details {
+  margin-left: -35%;
+  width: 150%
+}
+
+#tutorid {
+  /* float: left;
+  margin-left: -20%; */
+  /* margin-bottom: -10%; */
+  /* position: relative; */
+  top: 0px;
+  left: 16px;
+  margin-left: -25%;
+  margin-top: -3%
+    /* font-size: 18px; */
+}
+
+#logout {
+  position: relative;
+  top: -90px;
+  right: -280px;
+  /* font-size: 18px; */
+  float: right;
+}
+
+#title {
+  text-align: center;
+  margin-right: 27%;
+}

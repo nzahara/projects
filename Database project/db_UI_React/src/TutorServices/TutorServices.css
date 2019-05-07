@@ -1,0 +1,56 @@
+#title {
+  text-align: center;
+}
+
+#schedule {
+  width: 209%;
+  margin-left: -60%;
+  margin-top: 4%;
+  /* padding: 0px 0px 30px 0px; */
+}
+
+#studentdash {
+  margin-left: -100%;
+  top: -40px;
+  margin-top: -12%;
+}
+
+#studentreg {
+  margin-left: 27%;
+  top: -40px;
+  margin-top: -12%;
+}
+
+#logouttutor {
+  position: relative;
+  top: -30px;
+  right: -800px;
+}
+
+#servicereg {
+  position: relative;
+  top: -30px;
+  right: -800px;
+  margin-right:7%
+}
+
+#inline {
+  display: inline-block;
+  margin-right: -90%;
+}
+
+#btncss{
+  margin-left: 96%;
+  margin-right:-20%;
+  margin-top:-54%;
+}
+
+#btncss1 {
+  margin-left: 20%;
+  margin-right:-26%;
+  margin-top:-31%;
+}
+
+#btncss0 {
+  margin-right:40%;
+}

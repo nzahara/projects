@@ -1,0 +1,20 @@
+td {
+  text-align: center;
+  word-wrap: break-word;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+th {
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  margin-left:-80%;
+  margin-top:11%
+}
+
+/* #paybtn {
+  margin: 10px;
+} */

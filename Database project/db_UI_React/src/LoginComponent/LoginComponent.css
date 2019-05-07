@@ -1,0 +1,48 @@
+
+/* body {
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+} */
+
+#root>div {
+  width: 500px;
+  margin: auto;
+  margin-top: 1%;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#signup, #login {
+  width: 100%;
+  background: #2c3e50;
+}
+
+/* #signup {
+  height: 500px;
+} */
+
+/* #login {
+  height: 200px;
+} */
+
+.yellow {
+  background-color: gold;
+}
+#email {
+  width: 175px;
+}
+
+#password {
+  width: 125px;
+  margin-left: 6px !important;
+}
+
+#login>#email, #login>#password, #login>button {
+  width: 250px;
+  margin-left: 125px !important;
+  margin-top: 20px;
+  height: 25px;
+
+}
